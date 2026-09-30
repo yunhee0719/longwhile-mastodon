@@ -7,6 +7,13 @@ export const NotSignedInIndicator: React.FC = () => (
         id='not_signed_in_indicator.not_signed_in'
         defaultMessage='You need to login to access this resource.'
       />
+
+      <a
+        href='/auth/sign_in'
+        className='button'
+      >
+        로그인
+      </a>
     </div>
   </div>
 );
